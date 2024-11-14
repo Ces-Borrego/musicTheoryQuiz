@@ -4,17 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Music Theory Quiz</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <nav id="key-nav" class="btn-container">
+    <button class="btn" onclick="filterQuestions('A')">A</button>
+    <button class="btn" onclick="filterQuestions('A#')">A#</button>
+    <button class="btn" onclick="filterQuestions('B')">B</button>
+    <button class="btn" onclick="filterQuestions('C')">C</button>
+    <button class="btn" onclick="filterQuestions('C#')">C#</button>
+    <button class="btn" onclick="filterQuestions('D')">D</button>
+    <button class="btn" onclick="filterQuestions('D#')">D#</button>
+    <button class="btn" onclick="filterQuestions('E')">E</button>
+    <button class="btn" onclick="filterQuestions('F')">F</button>
+    <button class="btn" onclick="filterQuestions('F#')">F#</button>
+    <button class="btn" onclick="filterQuestions('G')">G</button>
+    <button class="btn" onclick="filterQuestions('G#')">G#</button>
+  </nav>
   <div id="quiz-container">
     <h1>Music Theory Quiz</h1>
     <div id="question-container">
-      <div id="question">Question text</div>
+      <div id="question">Choose a key to start the test</div>
       <div id="answer-buttons" class="btn-container"></div>
-      <button id="help-button" class="btn" onclick="showHelp()">I need help</button>
+      <button id="help-button" class="btn" onclick="showHelp()" style="display: none;">I need help</button>
     </div>
-    <button id="next-button" class="btn" onclick="nextQuestion()">Next</button>
+    <button id="next-button" class="btn" onclick="nextQuestion()" style="display: none;">Next</button>
+    <div id="help-container" class="help-container" style="display: none;"></div>
   </div>
   <script src="script.js"></script>
 </body>

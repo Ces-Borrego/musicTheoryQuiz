@@ -1,0 +1,663 @@
+[
+  {
+    "question": "What is the relative minor of A Major?",
+    "answers": [
+      { "text": "F# minor", "correct": true },
+      { "text": "C# minor", "correct": false },
+      { "text": "D minor", "correct": false },
+      { "text": "E minor", "correct": false }
+    ],
+    "help": "The relative minor of a major key is the sixth note of its scale. For A Major, the sixth note is F#, so the relative minor is F# minor.",
+    "key": "A"
+  },
+  {
+    "question": "What is the 5th degree (dominant) of the A Major scale?",
+    "answers": [
+      { "text": "E", "correct": true },
+      { "text": "D", "correct": false },
+      { "text": "C#", "correct": false },
+      { "text": "B", "correct": false }
+    ],
+    "help": "The dominant is the fifth note of the major scale. In A Major, the fifth note is E.",
+    "key": "A"
+  },
+  {
+    "question": "Which chord is the tonic in A Major?",
+    "answers": [
+      { "text": "A Major", "correct": true },
+      { "text": "D Major", "correct": false },
+      { "text": "E Major", "correct": false },
+      { "text": "F# minor", "correct": false }
+    ],
+    "help": "The tonic is the first chord of the scale, which in this case is A Major.",
+    "key": "A"
+  },
+  {
+    "question": "Which note is the mediant of A Major?",
+    "answers": [
+      { "text": "C#", "correct": true },
+      { "text": "D", "correct": false },
+      { "text": "E", "correct": false },
+      { "text": "B", "correct": false }
+    ],
+    "help": "The mediant is the third note of the scale. In A Major, the mediant is C#.",
+    "key": "A"
+  },
+  {
+    "question": "What is the 3rd note of the A Major scale?",
+    "answers": [
+      { "text": "C#", "correct": true },
+      { "text": "B", "correct": false },
+      { "text": "E", "correct": false },
+      { "text": "D", "correct": false }
+    ],
+    "help": "The third note of the A Major scale is C#.",
+    "key": "A"
+  },
+  {
+    "question": "What is the relative minor of A# Major?",
+    "answers": [
+      { "text": "G minor", "correct": true },
+      { "text": "D minor", "correct": false },
+      { "text": "F minor", "correct": false },
+      { "text": "B minor", "correct": false }
+    ],
+    "help": "The relative minor of A# Major is G minor.",
+    "key": "A#"
+  },
+  {
+    "question": "What is the 5th degree (dominant) of the A# Major scale?",
+    "answers": [
+      { "text": "E#", "correct": true },
+      { "text": "F#", "correct": false },
+      { "text": "C#", "correct": false },
+      { "text": "D#", "correct": false }
+    ],
+    "help": "The dominant is the fifth note of the major scale. In A# Major, the fifth note is E#.",
+    "key": "A#"
+  },
+  {
+    "question": "Which chord is the tonic in A# Major?",
+    "answers": [
+      { "text": "A# Major", "correct": true },
+      { "text": "D# Major", "correct": false },
+      { "text": "F Major", "correct": false },
+      { "text": "G minor", "correct": false }
+    ],
+    "help": "The tonic is the first chord of the scale, which in this case is A# Major.",
+    "key": "A#"
+  },
+  {
+    "question": "Which note is the mediant of A# Major?",
+    "answers": [
+      { "text": "D", "correct": true },
+      { "text": "F", "correct": false },
+      { "text": "E", "correct": false },
+      { "text": "G", "correct": false }
+    ],
+    "help": "The mediant is the third note of the scale. In A# Major, the mediant is D.",
+    "key": "A#"
+  },
+  {
+    "question": "What is the 3rd note of the A# Major scale?",
+    "answers": [
+      { "text": "D", "correct": true },
+      { "text": "F", "correct": false },
+      { "text": "G", "correct": false },
+      { "text": "E", "correct": false }
+    ],
+    "help": "The third note of the A# Major scale is D.",
+    "key": "A#"
+  },
+  {
+    "question": "What is the relative minor of B Major?",
+    "answers": [
+      { "text": "G# minor", "correct": true },
+      { "text": "E minor", "correct": false },
+      { "text": "A minor", "correct": false },
+      { "text": "C minor", "correct": false }
+    ],
+    "help": "The relative minor of a major key is the sixth note of its scale. For B Major, the sixth note is G#, so the relative minor is G# minor.",
+    "key": "B"
+  },
+  {
+    "question": "What is the 5th degree (dominant) of the B Major scale?",
+    "answers": [
+      { "text": "F#", "correct": true },
+      { "text": "E", "correct": false },
+      { "text": "C#", "correct": false },
+      { "text": "D#", "correct": false }
+    ],
+    "help": "The dominant is the fifth note of the major scale. In B Major, the fifth note is F#.",
+    "key": "B"
+  },
+  {
+    "question": "Which chord is the tonic in B Major?",
+    "answers": [
+      { "text": "B Major", "correct": true },
+      { "text": "E Major", "correct": false },
+      { "text": "F# Major", "correct": false },
+      { "text": "G# minor", "correct": false }
+    ],
+    "help": "The tonic is the first chord of the scale, which in this case is B Major.",
+    "key": "B"
+  },
+  {
+    "question": "Which note is the mediant of B Major?",
+    "answers": [
+      { "text": "D#", "correct": true },
+      { "text": "E", "correct": false },
+      { "text": "G#", "correct": false },
+      { "text": "A", "correct": false }
+    ],
+    "help": "The mediant is the third note of the scale. In B Major, the mediant is D#.",
+    "key": "B"
+  },
+  {
+    "question": "What is the 3rd note of the B Major scale?",
+    "answers": [
+      { "text": "D#", "correct": true },
+      { "text": "E", "correct": false },
+      { "text": "G#", "correct": false },
+      { "text": "A", "correct": false }
+    ],
+    "help": "The third note of the B Major scale is D#.",
+    "key": "B"
+  },
+  {
+    "question": "What is the relative minor of C Major?",
+    "answers": [
+      { "text": "A minor", "correct": true },
+      { "text": "E minor", "correct": false },
+      { "text": "G minor", "correct": false },
+      { "text": "D minor", "correct": false }
+    ],
+    "help": "The relative minor of a major key is the sixth note of its scale. For C Major, the sixth note is A, so the relative minor is A minor.",
+    "key": "C"
+  },
+  {
+    "question": "What is the 5th degree (dominant) of the C Major scale?",
+    "answers": [
+      { "text": "G", "correct": true },
+      { "text": "F", "correct": false },
+      { "text": "E", "correct": false },
+      { "text": "D", "correct": false }
+    ],
+    "help": "The dominant is the fifth note of the major scale. In C Major, the fifth note is G.",
+    "key": "C"
+  },
+  {
+    "question": "Which chord is the tonic in C Major?",
+    "answers": [
+      { "text": "C Major", "correct": true },
+      { "text": "F Major", "correct": false },
+      { "text": "G Major", "correct": false },
+      { "text": "A minor", "correct": false }
+    ],
+    "help": "The tonic is the first chord of the scale, which in this case is C Major.",
+    "key": "C"
+  },
+  {
+    "question": "Which note is the mediant of C Major?",
+    "answers": [
+      { "text": "E", "correct": true },
+      { "text": "F", "correct": false },
+      { "text": "G", "correct": false },
+      { "text": "A", "correct": false }
+    ],
+    "help": "The mediant is the third note of the scale. In C Major, the mediant is E.",
+    "key": "C"
+  },
+  {
+    "question": "What is the 3rd note of the C Major scale?",
+    "answers": [
+      { "text": "E", "correct": true },
+      { "text": "F", "correct": false },
+      { "text": "G", "correct": false },
+      { "text": "D", "correct": false }
+    ],
+    "help": "The third note of the C Major scale is E.",
+    "key": "C"
+  },
+  {
+    "question": "What is the relative minor of C# Major?",
+    "answers": [
+      { "text": "A# minor", "correct": true },
+      { "text": "E# minor", "correct": false },
+      { "text": "B minor", "correct": false },
+      { "text": "G# minor", "correct": false }
+    ],
+    "help": "The relative minor of a major key is the sixth note of its scale. For C# Major, the sixth note is A#, so the relative minor is A# minor.",
+    "key": "C#"
+  },
+  {
+    "question": "What is the 5th degree (dominant) of the C# Major scale?",
+    "answers": [
+      { "text": "G#", "correct": true },
+      { "text": "F#", "correct": false },
+      { "text": "E#", "correct": false },
+      { "text": "D#", "correct": false }
+    ],
+    "help": "The dominant is the fifth note of the major scale. In C# Major, the fifth note is G#.",
+    "key": "C#"
+  },
+  {
+    "question": "Which chord is the tonic in C# Major?",
+    "answers": [
+      { "text": "C# Major", "correct": true },
+      { "text": "F# Major", "correct": false },
+      { "text": "G# Major", "correct": false },
+      { "text": "A# minor", "correct": false }
+    ],
+    "help": "The tonic is the first chord of the scale, which in this case is C# Major.",
+    "key": "C#"
+  },
+  {
+    "question": "Which note is the mediant of C# Major?",
+    "answers": [
+      { "text": "E#", "correct": true },
+      { "text": "F#", "correct": false },
+      { "text": "G#", "correct": false },
+      { "text": "A#", "correct": false }
+    ],
+    "help": "The mediant is the third note of the scale. In C# Major, the mediant is E#.",
+    "key": "C#"
+  },
+  {
+    "question": "What is the 3rd note of the C# Major scale?",
+    "answers": [
+      { "text": "E#", "correct": true },
+      { "text": "F#", "correct": false },
+      { "text": "G#", "correct": false },
+      { "text": "D#", "correct": false }
+    ],
+    "help": "The third note of the C# Major scale is E#.",
+    "key": "C#"
+  },
+  {
+    "question": "What is the relative minor of D Major?",
+    "answers": [
+      { "text": "B minor", "correct": true },
+      { "text": "F# minor", "correct": false },
+      { "text": "E minor", "correct": false },
+      { "text": "A minor", "correct": false }
+    ],
+    "help": "The relative minor of a major key is the sixth note of its scale. For D Major, the sixth note is B, so the relative minor is B minor.",
+    "key": "D"
+  },
+  {
+    "question": "What is the 5th degree (dominant) of the D Major scale?",
+    "answers": [
+      { "text": "A", "correct": true },
+      { "text": "G", "correct": false },
+      { "text": "E", "correct": false },
+      { "text": "F#", "correct": false }
+    ],
+    "help": "The dominant is the fifth note of the major scale. In D Major, the fifth note is A.",
+    "key": "D"
+  },
+  {
+    "question": "Which chord is the tonic in D Major?",
+    "answers": [
+      { "text": "D Major", "correct": true },
+      { "text": "G Major", "correct": false },
+      { "text": "A Major", "correct": false },
+      { "text": "B minor", "correct": false }
+    ],
+    "help": "The tonic is the first chord of the scale, which in this case is D Major.",
+    "key": "D"
+  },
+  {
+    "question": "Which note is the mediant of D Major?",
+    "answers": [
+      { "text": "F#", "correct": true },
+      { "text": "G", "correct": false },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false }
+    ],
+    "help": "The mediant is the third note of the scale. In D Major, the mediant is F#.",
+    "key": "D"
+  },
+  {
+    "question": "What is the 3rd note of the D Major scale?",
+    "answers": [
+      { "text": "F#", "correct": true },
+      { "text": "G", "correct": false },
+      { "text": "A", "correct": false },
+      { "text": "E", "correct": false }
+    ],
+    "help": "The third note of the D Major scale is F#.",
+    "key": "D"
+  },
+  {
+    "question": "What is the relative minor of D# Major?",
+    "answers": [
+      { "text": "B# minor", "correct": true },
+      { "text": "E# minor", "correct": false },
+      { "text": "F minor", "correct": false },
+      { "text": "G minor", "correct": false }
+    ],
+    "help": "The relative minor of a major key is the sixth note of its scale. For D# Major, the sixth note is B#, so the relative minor is B# minor.",
+    "key": "D#"
+  },
+  {
+    "question": "What is the 5th degree (dominant) of the D# Major scale?",
+    "answers": [
+      { "text": "A#", "correct": true },
+      { "text": "G#", "correct": false },
+      { "text": "E#", "correct": false },
+      { "text": "C#", "correct": false }
+    ],
+    "help": "The dominant is the fifth note of the major scale. In D# Major, the fifth note is A#.",
+    "key": "D#"
+  },
+  {
+    "question": "Which chord is the tonic in D# Major?",
+    "answers": [
+      { "text": "D# Major", "correct": true },
+      { "text": "G# Major", "correct": false },
+      { "text": "A# Major", "correct": false },
+      { "text": "B# minor", "correct": false }
+    ],
+    "help": "The tonic is the first chord of the scale, which in this case is D# Major.",
+    "key": "D#"
+  },
+  {
+    "question": "Which note is the mediant of D# Major?",
+    "answers": [
+      { "text": "F##", "correct": true },
+      { "text": "G#", "correct": false },
+      { "text": "A#", "correct": false },
+      { "text": "B#", "correct": false }
+    ],
+    "help": "The mediant is the third note of the scale. In D# Major, the mediant is F## (F double sharp).",
+    "key": "D#"
+  },
+  {
+    "question": "What is the 3rd note of the D# Major scale?",
+    "answers": [
+      { "text": "F##", "correct": true },
+      { "text": "G#", "correct": false },
+      { "text": "A#", "correct": false },
+      { "text": "E#", "correct": false }
+    ],
+    "help": "The third note of the D# Major scale is F## (F double sharp).",
+    "key": "D#"
+  },
+  {
+    "question": "What is the relative minor of E Major?",
+    "answers": [
+      { "text": "C# minor", "correct": true },
+      { "text": "G# minor", "correct": false },
+      { "text": "A minor", "correct": false },
+      { "text": "B minor", "correct": false }
+    ],
+    "help": "The relative minor of a major key is the sixth note of its scale. For E Major, the sixth note is C#, so the relative minor is C# minor.",
+    "key": "E"
+  },
+  {
+    "question": "What is the 5th degree (dominant) of the E Major scale?",
+    "answers": [
+      { "text": "B", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "G#", "correct": false },
+      { "text": "F#", "correct": false }
+    ],
+    "help": "The dominant is the fifth note of the major scale. In E Major, the fifth note is B.",
+    "key": "E"
+  },
+  {
+    "question": "Which chord is the tonic in E Major?",
+    "answers": [
+      { "text": "E Major", "correct": true },
+      { "text": "A Major", "correct": false },
+      { "text": "B Major", "correct": false },
+      { "text": "C# minor", "correct": false }
+    ],
+    "help": "The tonic is the first chord of the scale, which in this case is E Major.",
+    "key": "E"
+  },
+  {
+    "question": "Which note is the mediant of E Major?",
+    "answers": [
+      { "text": "G#", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C#", "correct": false }
+    ],
+    "help": "The mediant is the third note of the scale. In E Major, the mediant is G#.",
+    "key": "E"
+  },
+  {
+    "question": "What is the 3rd note of the E Major scale?",
+    "answers": [
+      { "text": "G#", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "F#", "correct": false }
+    ],
+    "help": "The third note of the E Major scale is G#.",
+    "key": "E"
+  },
+  {
+    "question": "What is the relative minor of F Major?",
+    "answers": [
+      { "text": "D minor", "correct": true },
+      { "text": "A minor", "correct": false },
+      { "text": "E minor", "correct": false },
+      { "text": "G minor", "correct": false }
+    ],
+    "help": "The relative minor of a major key is the sixth note of its scale. For F Major, the sixth note is D, so the relative minor is D minor.",
+    "key": "F"
+  },
+  {
+    "question": "What is the 5th degree (dominant) of the F Major scale?",
+    "answers": [
+      { "text": "C", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "D", "correct": false },
+      { "text": "G", "correct": false }
+    ],
+    "help": "The dominant is the fifth note of the major scale. In F Major, the fifth note is C.",
+    "key": "F"
+  },
+  {
+    "question": "Which chord is the tonic in F Major?",
+    "answers": [
+      { "text": "F Major", "correct": true },
+      { "text": "A minor", "correct": false },
+      { "text": "C Major", "correct": false },
+      { "text": "D minor", "correct": false }
+    ],
+    "help": "The tonic is the first chord of the scale, which in this case is F Major.",
+    "key": "F"
+  },
+  {
+    "question": "Which note is the mediant of F Major?",
+    "answers": [
+      { "text": "A", "correct": true },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false },
+      { "text": "D", "correct": false }
+    ],
+    "help": "The mediant is the third note of the scale. In F Major, the mediant is A.",
+    "key": "F"
+  },
+  {
+    "question": "What is the 3rd note of the F Major scale?",
+    "answers": [
+      { "text": "A", "correct": true },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false },
+      { "text": "G", "correct": false }
+    ],
+    "help": "The third note of the F Major scale is A.",
+    "key": "F"
+  },
+  {
+    "question": "What is the relative minor of F# Major?",
+    "answers": [
+      { "text": "D# minor", "correct": true },
+      { "text": "A# minor", "correct": false },
+      { "text": "E minor", "correct": false },
+      { "text": "C# minor", "correct": false }
+    ],
+    "help": "The relative minor of a major key is the sixth note of its scale. For F# Major, the sixth note is D#, so the relative minor is D# minor.",
+    "key": "F#"
+  },
+  {
+    "question": "What is the 5th degree (dominant) of the F# Major scale?",
+    "answers": [
+      { "text": "C#", "correct": true },
+      { "text": "B", "correct": false },
+      { "text": "E", "correct": false },
+      { "text": "A#", "correct": false }
+    ],
+    "help": "The dominant is the fifth note of the major scale. In F# Major, the fifth note is C#.",
+    "key": "F#"
+  },
+  {
+    "question": "Which chord is the tonic in F# Major?",
+    "answers": [
+      { "text": "F# Major", "correct": true },
+      { "text": "B Major", "correct": false },
+      { "text": "C# Major", "correct": false },
+      { "text": "D# minor", "correct": false }
+    ],
+    "help": "The tonic is the first chord of the scale, which in this case is F# Major.",
+    "key": "F#"
+  },
+  {
+    "question": "Which note is the mediant of F# Major?",
+    "answers": [
+      { "text": "A#", "correct": true },
+      { "text": "B", "correct": false },
+      { "text": "C#", "correct": false },
+      { "text": "D#", "correct": false }
+    ],
+    "help": "The mediant is the third note of the scale. In F# Major, the mediant is A#.",
+    "key": "F#"
+  },
+  {
+    "question": "What is the 3rd note of the F# Major scale?",
+    "answers": [
+      { "text": "A#", "correct": true },
+      { "text": "B", "correct": false },
+      { "text": "C#", "correct": false },
+      { "text": "E", "correct": false }
+    ],
+    "help": "The third note of the F# Major scale is A#.",
+    "key": "F#"
+  },
+  {
+    "question": "What is the relative minor of G Major?",
+    "answers": [
+      { "text": "E minor", "correct": true },
+      { "text": "A minor", "correct": false },
+      { "text": "D minor", "correct": false },
+      { "text": "B minor", "correct": false }
+    ],
+    "help": "The relative minor of a major key is the sixth note of its scale. For G Major, the sixth note is E, so the relative minor is E minor.",
+    "key": "G"
+  },
+  {
+    "question": "What is the 5th degree (dominant) of the G Major scale?",
+    "answers": [
+      { "text": "D", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "E", "correct": false },
+      { "text": "F#", "correct": false }
+    ],
+    "help": "The dominant is the fifth note of the major scale. In G Major, the fifth note is D.",
+    "key": "G"
+  },
+  {
+    "question": "Which chord is the tonic in G Major?",
+    "answers": [
+      { "text": "G Major", "correct": true },
+      { "text": "C Major", "correct": false },
+      { "text": "D Major", "correct": false },
+      { "text": "E minor", "correct": false }
+    ],
+    "help": "The tonic is the first chord of the scale, which in this case is G Major.",
+    "key": "G"
+  },
+  {
+    "question": "Which note is the mediant of G Major?",
+    "answers": [
+      { "text": "B", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "D", "correct": false },
+      { "text": "E", "correct": false }
+    ],
+    "help": "The mediant is the third note of the scale. In G Major, the mediant is B.",
+    "key": "G"
+  },
+  {
+    "question": "What is the 3rd note of the G Major scale?",
+    "answers": [
+      { "text": "B", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "D", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "help": "The third note of the G Major scale is B.",
+    "key": "G"
+  },
+  {
+    "question": "What is the relative minor of G# Major?",
+    "answers": [
+      { "text": "F minor", "correct": true },
+      { "text": "A# minor", "correct": false },
+      { "text": "C minor", "correct": false },
+      { "text": "D# minor", "correct": false }
+    ],
+    "help": "The relative minor of a major key is the sixth note of its scale. For G# Major, the sixth note is F, so the relative minor is F minor.",
+    "key": "G#"
+  },
+  {
+    "question": "What is the 5th degree (dominant) of the G# Major scale?",
+    "answers": [
+      { "text": "D#", "correct": true },
+      { "text": "C#", "correct": false },
+      { "text": "A#", "correct": false },
+      { "text": "F#", "correct": false }
+    ],
+    "help": "The dominant is the fifth note of the major scale. In G# Major, the fifth note is D#.",
+    "key": "G#"
+  },
+  {
+    "question": "Which chord is the tonic in G# Major?",
+    "answers": [
+      { "text": "G# Major", "correct": true },
+      { "text": "C# Major", "correct": false },
+      { "text": "D# Major", "correct": false },
+      { "text": "F minor", "correct": false }
+    ],
+    "help": "The tonic is the first chord of the scale, which in this case is G# Major.",
+    "key": "G#"
+  },
+  {
+    "question": "Which note is the mediant of G# Major?",
+    "answers": [
+      { "text": "B#", "correct": true },
+      { "text": "C#", "correct": false },
+      { "text": "D#", "correct": false },
+      { "text": "F#", "correct": false }
+    ],
+    "help": "The mediant is the third note of the scale. In G# Major, the mediant is B#.",
+    "key": "G#"
+  },
+  {
+    "question": "What is the 3rd note of the G# Major scale?",
+    "answers": [
+      { "text": "B#", "correct": true },
+      { "text": "C#", "correct": false },
+      { "text": "D#", "correct": false },
+      { "text": "A#", "correct": false }
+    ],
+    "help": "The third note of the G# Major scale is B#.",
+    "key": "G#"
+  }
+  
+]

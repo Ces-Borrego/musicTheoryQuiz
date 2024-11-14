@@ -1,40 +1,53 @@
-const questions = [
-  {
-    question: "What is the relative minor of C Major?",
-    answers: [
-      { text: "A minor", correct: true },
-      { text: "E minor", correct: false },
-      { text: "G minor", correct: false },
-      { text: "D minor", correct: false }
-    ],
-    help: "The relative minor of a major key is the sixth degree of the major scale. For C Major, the sixth degree is A, so the relative minor is A minor."
-  },
-  {
-    question: "How many sharps are in the key of G Major?",
-    answers: [
-      { text: "1", correct: true },
-      { text: "2", correct: false },
-      { text: "3", correct: false },
-      { text: "0", correct: false }
-    ],
-    help: "The key of G Major has one sharp: F#."
-  }
-  // Add more questions as needed
-];
+fetch('questionAndAnswerKey.json')
+  .then(response => response.json())
+  .then(data => {
+    window.questions = data;
+    window.filteredQuestions = data;
+    updateKeyButtons();
+    displayInitialMessage();
+  })
+  .catch(error => console.error('Error loading questions:', error));
 
 let currentQuestionIndex = 0;
 
+function displayInitialMessage() {
+  document.getElementById("question").innerText = "Choose a key to start the test";
+}
+
 function startQuiz() {
   currentQuestionIndex = 0;
-  showQuestion(questions[currentQuestionIndex]);
+  showRandomQuestion();
+}
+
+function filterQuestions(key) {
+  window.filteredQuestions = window.questions.filter(question => question.key === key);
+  document.getElementById("help-button").style.display = "inline-block";
+  document.getElementById("next-button").style.display = "inline-block";
+  console.log(window.filteredQuestions)
+  console.log(filteredQuestions.length);
+  startQuiz();
+}
+
+function showRandomQuestion() {
+  if (filteredQuestions.length === 0) {
+    document.getElementById("question").innerText = "No questions available for the selected key.";
+    document.getElementById("answer-buttons").innerHTML = "";
+    return;
+  }
+  const randomIndex = Math.floor(Math.random() * filteredQuestions.length);
+  currentQuestionIndex = randomIndex;
+  showQuestion(filteredQuestions[currentQuestionIndex]);
 }
 
 function showQuestion(question) {
   const questionElement = document.getElementById("question");
   const answerButtonsElement = document.getElementById("answer-buttons");
+  const helpContainerElement = document.getElementById("help-container");
 
   questionElement.innerText = question.question;
   answerButtonsElement.innerHTML = "";
+  helpContainerElement.style.display = "none";
+  helpContainerElement.innerHTML = "";
 
   question.answers.forEach(answer => {
     const button = document.createElement("button");
@@ -46,25 +59,38 @@ function showQuestion(question) {
 }
 
 function selectAnswer(answer) {
+  const helpContainerElement = document.getElementById("help-container");
+  helpContainerElement.style.display = "block";
   if (answer.correct) {
-    alert("Correct!");
+    helpContainerElement.innerText = "Correct!";
   } else {
-    alert("Wrong answer. Try again!");
+    helpContainerElement.innerText = "Wrong answer. Try again!";
   }
 }
 
 function nextQuestion() {
-  currentQuestionIndex++;
-  if (currentQuestionIndex < questions.length) {
-    showQuestion(questions[currentQuestionIndex]);
-  } else {
-    alert("Quiz Finished!");
-    startQuiz();
-  }
+  const helpContainerElement = document.getElementById("help-container");
+  helpContainerElement.style.display = "none";
+  showRandomQuestion();
 }
 
 function showHelp() {
-  alert(questions[currentQuestionIndex].help);
+  const helpContainerElement = document.getElementById("help-container");
+  helpContainerElement.style.display = "block";
+  helpContainerElement.innerText = filteredQuestions[currentQuestionIndex].help;
 }
 
-window.onload = startQuiz;
+function updateKeyButtons() {
+  // Find all keys that have questions
+  const keysWithQuestions = new Set(window.questions.map(question => question.key));
+
+  const keys = ['A', 'A#', 'B', 'C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#'];
+  keys.forEach(key => {
+    const button = document.querySelector(`button[onclick="filterQuestions('${key}')"]`);
+    if (!keysWithQuestions.has(key)) {
+      button.classList.add('disabled');
+    }
+  });
+}
+
+window.onload = displayInitialMessage;
