@@ -39,6 +39,15 @@ function showRandomQuestion() {
   showQuestion(filteredQuestions[currentQuestionIndex]);
 }
 
+// Function to shuffle an array (using Fisher-Yates Shuffle Algorithm)
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+  }
+}
+
+// Modify the showQuestion function
 function showQuestion(question) {
   const questionElement = document.getElementById("question");
   const answerButtonsElement = document.getElementById("answer-buttons");
@@ -49,6 +58,10 @@ function showQuestion(question) {
   helpContainerElement.style.display = "none";
   helpContainerElement.innerHTML = "";
 
+  // Shuffle answers before displaying them
+  shuffleArray(question.answers);
+
+  // Create buttons for each answer
   question.answers.forEach(answer => {
     const button = document.createElement("button");
     button.innerText = answer.text;
@@ -57,6 +70,7 @@ function showQuestion(question) {
     answerButtonsElement.appendChild(button);
   });
 }
+
 
 function selectAnswer(answer) {
   const helpContainerElement = document.getElementById("help-container");
